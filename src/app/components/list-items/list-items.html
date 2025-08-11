@@ -1,1 +1,18 @@
-<p>list-items works!</p>
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Id</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @for (item of items; track $index) {
+        <tr row-items [item]="item">
+
+        </tr>
+        }
+    </tbody>
+</table>

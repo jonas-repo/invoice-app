@@ -1,10 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { InvoiceService } from '../../services/invoiceService';
 import { Invoice } from '../../models/invoice';
+import { ClientView } from '../client-view/client-view';
+import { CompanyView } from '../company-view/company-view';
+import { InvoiceView } from '../invoice-view/invoice-view';
+import { ListItems } from '../list-items/list-items';
+import { RowItems } from '../row-items/row-items';
 
 @Component({
   selector: 'app-invoice',
-  imports: [],
+  imports: [ClientView, CompanyView, InvoiceView, ListItems, RowItems],
   templateUrl: './invoice.html',
   styleUrl: './invoice.css'
 })

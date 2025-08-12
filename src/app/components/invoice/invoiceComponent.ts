@@ -6,10 +6,15 @@ import { CompanyView } from '../company-view/company-view';
 import { InvoiceView } from '../invoice-view/invoice-view';
 import { ListItems } from '../list-items/list-items';
 import { RowItems } from '../row-items/row-items';
+import { Total } from '../total/total';
 
 @Component({
   selector: 'app-invoice',
-  imports: [ClientView, CompanyView, InvoiceView, ListItems, RowItems],
+  imports: [ClientView, 
+    CompanyView, 
+    InvoiceView, 
+    ListItems, 
+    Total],
   templateUrl: './invoice.html',
   styleUrl: './invoice.css'
 })

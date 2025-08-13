@@ -10,7 +10,7 @@
     </thead>
     <tbody>
         @for (item of items; track $index) {
-        <tr row-items [item]="item">
+        <tr row-items [item]="item" (removeEventEmmiter)="onRemove($event)">
 
         </tr>
         }

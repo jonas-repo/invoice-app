@@ -18,4 +18,16 @@ export class FormItem {
     price: '',
     quantity: ''
   }
+
+  onSubmit(): void {
+    this.addItemEventEmmiter.emit(
+      { id: this.counterId, ... this.item });
+    this.counterId++;
+    this.item = {
+      product: '',
+      price: '',
+      quantity: ''
+    }
+  }
+
 }

@@ -8,6 +8,7 @@ import { ListItems } from '../list-items/list-items';
 import { RowItems } from '../row-items/row-items';
 import { Total } from '../total/total';
 import { FormItem } from "../form-item/form-item";
+import { Item } from '../../models/item';
 
 @Component({
   selector: 'app-invoice',
@@ -31,6 +32,10 @@ constructor(private service: InvoiceService){}
   
   removeItem(id:number){
     this.invoice = this.service.remove(id);
+  }
+
+  addItem(item: Item ){
+    this.invoice = this.service.save(item);
   }
 
 }

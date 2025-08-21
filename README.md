@@ -1,3 +1,26 @@
+# Functions
+This webpage shows an invoice data that comes from data.ts using angular only
+the main funcion of this page is show a list of items and calculate a total price for invoice
+![alt text](https://github.com/jonas-repo/invoice-app/src/images/invoicemain.PNG?raw=true)
+
+This also validates the input of the user before inserting a new element to the invoice
+![alt text](https://github.com/jonas-repo/invoice-app/src/images/totalandvalidations.PNG?raw=true)
+
+Finally after adding a new item you got a new total price in the invoice.
+Techniques covered
+* Immutability
+* State change
+* Models
+* Event emmiters
+* Parent and children structure
+* Service
+
+
+![alt text](https://github.com/jonas-repo/invoice-app/src/images/priceupdatedandnewitemadded.PNG?raw=true)
+
+
+
+
 # InvoiceApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.

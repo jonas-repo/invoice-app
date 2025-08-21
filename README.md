@@ -5,7 +5,7 @@ the main funcion of this page is show a list of items and calculate a total pric
 
 This also validates the input of the user before inserting a new element to the invoice
 
-![alt text](https://github.com/jonas-repo/invoice-app/blob/main/src/images/totalandvalidations.PNG)
+![alt text](https://github.com/jonas-repo/invoice-app/blob/main/src/images/totalandvalidations.png)
 
 Finally after adding a new item you got a new total price in the invoice.
 Techniques covered
@@ -17,7 +17,7 @@ Techniques covered
 * Service
 
 
-![alt text](https://github.com/jonas-repo/invoice-app/blob/main/src/images/priceupdatedandnewitemadded.PNG)
+![alt text](https://github.com/jonas-repo/invoice-app/blob/main/src/images/priceupdatedandnewitemadded.png)
 
 
 

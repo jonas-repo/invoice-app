@@ -1,7 +1,7 @@
 # Functions
 This webpage shows an invoice data that comes from data.ts using angular only
 the main funcion of this page is show a list of items and calculate a total price for invoice
-![alt text](https://github.com/jonas-repo/invoice-app/src/images/invoicemain.PNG)
+![alt text](https://github.com/jonas-repo/invoice-app/blob/main/src/images/invoicemain.png)
 
 This also validates the input of the user before inserting a new element to the invoice
 ![alt text](https://github.com/jonas-repo/invoice-app/src/images/totalandvalidations.PNG)
